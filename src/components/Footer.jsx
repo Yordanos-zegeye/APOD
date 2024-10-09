@@ -5,7 +5,7 @@ export default function Footer(props) {
     <footer>
       <div className="bgGradient"></div>
       <div>
-        <h2>The mars picture</h2>
+        <h2>{props.data.title}</h2>
         <h1>APOD project</h1>
       </div>
 
